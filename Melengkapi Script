@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package melengkapiscript;
+
+import java.util.Scanner;
+/**
+ *
+ * @author acer
+ */
+public class MelengkapiScrip {
+     public static void main(String[] args){
+      Scanner aku = new Scanner(System.in);
+        
+        System.out.println("Masukkan Nama Anda : ");
+        String Nama = aku.nextLine();
+        
+        System.out.println("Masuukan NIM Anda : ");
+        String NIM = aku.nextLine();
+        
+        System.out.println("Masukkan Nilai Anda : ");
+        String Nilai = aku.next();
+        
+         System.out.println("Anda Lulus");
+            }
+    
+}
